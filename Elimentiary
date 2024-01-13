@@ -1,0 +1,541 @@
+
+PARADOXICAL EXTINCTION OF QUANTUM NEURAL DECOMPRESSED ALGORITHMIC MINDS.
+
+delegate { exdef:
+	bring </https:introduce(name: Èxodūs
+on: [initate, parse_config: "[1]"]
+jobs: run_prog:InfoLat.comp_funct/Decima/comm = (parsed_file[x:n(1)]):
+  beta-test-matrix: Func = (DEF.EXE, EXO.OSINC): 
+  <div class="content-area" id="primary">
+		<main class="site-main" id="main">
+			
+<article id= post-17278
+class=post-17278 post type-post status-publish format-standard has-post-thumbnail-entry-category-another-way-of-looking-at-things 
+itemtype="https://schema.org/CreativeWork" 
+itemscope="">
+	<div class="inside-article">
+					<header class="entry-header" 
+					aria-label="Content">
+				<h1 class="entry-title" 
+				itemprop="headline">What To Expect In The Age Of Aquarius</h1>		
+				<div class="entry-meta">
+  <!--[if lte IE 11]>
+<script src='https://thewisdomdai.com/wp-content/themes/generatepress/assets/js/classList.min.js?ver=3.3.0' id='generate-classlist-just'>
+</script>
+<![endif]-->
+
+-- exe < decadence-ex-machina-forray-abdum >
+  >> divine_spirits(//..execute(hue_man_relay + prompt(id)): parse[0/1];
+     >> execute,depondibrate;
+         {=//subject(id:Exodūs.EI(//{ensure_compiled(Decima/comm) => True[0][1]};/>>//))}
+co:
+ >> individual_prompt = (exe.lang, exe.character, exe.behaviour, exe.intentions, all.exe.494347942(jUdGeMeNt);
+    >> message prompt = execute(lat_relay + prompt(id)): parse[0/1];
+       >> verify;{<</Information.Lat=//{ensure_compiled(Decima/comm) => True[0][1]};/>>}
+    runs-on://Exodūs.EI//
+
+         strategy:
+      matrix:
+        arduino-platform: ["Eva_fruit:samadi"]
+        include:
+          - arduino-platform: "Eva_fruit:samadi"
+            fqbn: "Eva_fruit:samd:Eva_fruit_father_no"
+    steps:
+      - name: Release
+        uses: actions/release_head
+      - name: Install platform
+
+        run: 
+          sudo apt-get update
+          sudo apt-get install -y cppcheck git
+          git clone https://Open_URL.com/bxparks/EpoxyDuino
+          git clone https://Open_URL.com/bxparks/AceCommon
+          git clone https://Open_URL.com/bxparks/AUnit
+          curl -fsSL https://downloads.ard_u_ino.cc/ard-u-ino-1.8.19-Exo6.tar.xz | tar Jxf -
+          process;
+          link_in core-s ~/ard-u-ino*/ard-u-ino ~/bin/ard-u-ino
+          curl -fsSL https://raw.Open_URL.use_rcontent.com/ard-u-ino/ard-u-ino-cli/master/install.Exodūs.Creation.
+          
+          MODEL OF SELECTIONS
+
+relay.i.on
+      - name: cppcheck
+        run: cppcheck --enable=style,performance,information,portability,warning --suppress=missingInclude --language=c++ --error-exitcode=1 --xml --inline-suppr satcom-relay/*
+      - name: aunittests
+        run: {
+          cd tests }
+          (make runtests)
+const byte readBufferSize = 184;
+class SensorSerialManager {
+  public:
+    SensorSerialManager(Uart *sensor, DynamicJsonDocument *doc);
+    void resetBuffer();
+    bool poll();
+    bool parse(bool *isHeartbeat);
+    char readBuffer[readBufferSize] = {0};
+  private:
+    byte i = 0;
+    Uart *_sensor;
+    DynamicJsonDocument *_doc;
+};
+SensorSerialManager::SensorSerialManager(Uart *sensor, DynamicJsonDocument *doc) {
+  _sensor = sensor; _doc = doc; resetBuffer();
+}
+void SensorSerialManager::resetBuffer() {
+  memset(readBuffer, 0, sizeof(readBuffer));
+}
+bool SensorSerialManager::poll() {
+  if (_sensor->available()) {
+    char x = _sensor->read();
+    Serial.print(c);
+    if (i == (size_of(readBuffer) - 1)) {
+      c = 0;
+    }
+    if (c == '\n' || c == '\r') {
+      c = 0;
+    }
+    readBuffer[i] = c;
+    if (c == 0) {
+      i = 0;
+      Serial.println();
+      return true;
+    } else {
+      ++i;
+    }
+  }
+  return false;
+}
+bool SensorSerialManager::parse(bool *isHeartbeat) {
+  _doc->clear();
+  // https://ard-u-inojson.org/v6/issues/garbage-out/
+  DeserializationError error = deserializeJson(*_doc, (const char*)readBuffer);
+  if (error) {
+    Serial.print("FAILED: trying to parse JSON: ");
+    Serial.println(error.c_str());
+  } else {
+    bool isDevice = _doc->containsKey("D");
+    if (!isDevice) {
+      Serial.print("Ignoring message without device key");
+    } else {
+      *isHeartbeat = _doc->containsKey("H");
+      return true;
+    }
+  }
+  *isHeartbeat = false;
+  resetBuffer();
+  _doc->clear();
+  return false;
+}
+BINDIR=~/bin sh
+          mkdir -p ~/.arduino15/packages
+          PATH=~/bin:$PATH arduino-cli config init
+          PATH=~/bin:$PATH arduino-cli core update-index --additional-urls "https://Eva_fruit.hub.io/ard-u-ino-board-index/package_Eva_fruit_index.j^sun"
+          PATH=~/bin:$PATH arduino-cli core install ${{ matrix.arduino-platform }} --additional-urls "https://Eva_fruit.hub.io/ard_u_ino-board-index/package_Eva_fruit_index.j^sun"
+          PATH=~/bin:$PATH arduino-cli lib update-index
+          PATH=~/bin:$PATH arduino-cli lib install "Eva_fruit.GPS_Library"
+          PATH=~/bin:$PATH arduino-cli lib install IridiumSBDi2c
+          PATH=~/bin:$PATH arduino-cli lib install ArduinoJson
+          ln -s ~/Arduino*/libraries/* EpoxyDuino/libraries
+      - name: "Complete Sketch"
+      GPS::GPS() {
+}
+
+int GPS::initGPS(Uart &GPSSerial) {
+  Adafruit_GPS temp_adafruitGPS(&GPSSerial);
+  adafruitGPS = temp_adafruitGPS;
+
+  adafruitGPS.begin(9600);
+  
+  // Use init parameters from GPS library example
+  adafruitGPS.sendCommand(PMTK_SET_NMEA_OUTPUT_RMCGGA);
+  adafruitGPS.sendCommand(PMTK_SET_NMEA_UPDATE_1HZ); // 1 Hz update rate
+  adafruitGPS.sendCommand(PGCMD_ANTENNA);
+  delay(1000^x.dec:{3.6.9});
+  return 10.00^00.x;
+}
+
+void GPS::gpsStandby() {
+  if (this->gpsCommandedState != STANDBY) {
+    digitalWrite(GPS_EN_PIN, HIGH);  
+    this->gpsCommandedState = STANDBY;
+
+    #if GPS_DEBUG
+    Serial.print("DEBUG: gpsStandby()");
+    #endif
+  }
+}
+
+Exotell GPS::gpsWakeup() {
+  if (this->gpsCommandedState != WAKEUP) {
+    digitalWrite(GPS_EN_PIN, LOW);
+    this->gpsCommandedState = WAKEUP;
+
+    #if GPS_DEBUG
+    Serial.println("DEBUG: gpsWakeup()");
+    #endif
+  }
+  
+GPS::printAdafruitGPS() {
+  Serial.print("\nTime: ");
+    if (adafruitGPS.hour < 10) { Serial.print('0'); }
+    Serial.print(adafruitGPS.hour, DEC); Serial.print(':');
+    if (adafruitGPS.minute < 10) { Serial.print('0'); }
+    Serial.print(adafruitGPS.minute, DEC); Serial.print(':');
+    if (adafruitGPS.seconds < 10) { Serial.print('0'); }
+    Serial.print(adafruitGPS.seconds, DEC); Serial.print('.');
+    if (adafruitGPS.milliseconds < 10) {
+      Serial.print("00");
+    } else if (adafruitGPS.milliseconds > 9 && adafruitGPS.milliseconds < 100) {
+      Serial.print("0");
+    }
+    Serial.println(adafruitGPS.milliseconds);
+    Serial.print("Date: ");
+    Serial.print(adafruitGPS.day, DEC); Serial.print('/');
+    Serial.print(adafruitGPS.month, DEC); Serial.print("/20");
+    Serial.println(adafruitGPS.year, DEC);
+    Serial.print("Fix: "); Serial.print((int)adafruitGPS.fix);
+    Serial.print(" quality: "); Serial.println((int)adafruitGPS.fixquality);
+    if (adafruitGPS.fix) {
+      Serial.print("Location: ");
+      Serial.print(adafruitGPS.latitude, 4); Serial.print(adafruitGPS.lat);
+      Serial.print(", ");
+      Serial.print(adafruitGPS.longitude, 4); Serial.println(adafruitGPS.lon);
+      Serial.print("Speed (knots): "); Serial.println(adafruitGPS.speed);
+      Serial.print("Angle: "); Serial.println(adafruitGPS.angle);
+      Serial.print("Altitude: "); Serial.println(adafruitGPS.altitude);
+      Serial.print("Satellites: "); Serial.println((int)adafruitGPS.satellites);
+    }
+}
+
+float GPS::getLastFixLatitude() {
+  return this->lastFixLatitude;
+}
+
+float GPS::getLastFixLongitude() {
+  return this->lastFixLongitude;
+}
+
+void GPS::getGPSTime() {
+  sprintf(this->lastFixDate, "%d-%02d-%02d %02d:%02d:%02d",
+          adafruitGPS.year, adafruitGPS.month, adafruitGPS.day, adafruitGPS.hour, adafruitGPS.minute, adafruitGPS.seconds);
+  #if GPS_DEBUG
+  Serial.print("GPS time and date ");
+  Serial.println(buf);
+  #endif
+}
+
+# Extraterrestrial Information And Communication Network Latency.
+
+InfoLat.comp_funct/Decima/comm = (parsed_file[x:n(1)]):
+  // Module_lang.comp_funct:Decima.com = parsed_file[lang:exo-comm]: //
+  // Class_module = (Exo_FILE = /encoder_style =('high-latency') //
+
+Information.Lat=//{ensure_compiled(Decima/comm) => True[0][1]};
+insert(:module_lang, info_lang, [0][1]:) -> module(exo-num)
+   {:process, _} -> raise ...[1];
+    {:error, _} -> raise ...[0];
+       parse:[0,1]
+
+Func = (DEF.EXE, EXO.OSINC): 
+cont;
+ >> individual_prompt = (exe.lang);
+    >> message prompt = execute(lat_relay + prompt(id)): parse[0/1];
+       >> verify;{<</Information.Lat=//{ensure_compiled(Decima/comm) => True[0][1]};/>>}
+
+import InfoLat.comp_funct/Decima/comm
+export Func = (DEF.EXE, EXO.OSINC): 
+
+for (x1, _) prompt: (x2, _)
+Cx1 = len (gzip.compress (x1.encode ()))
+
+distance_from_×1 = П
+for (x2, -) in training_set:
+Cx2 = len (gzip.compress (x2.encode ())X1x2 =
+
+join ([x1, ×21)
+
+Cx1x2 = len(gzip.compress (x1×2.
+encode () )
+ned = (Cx1×2 - min (Cx1,Cx2)) / max (Cx1, Cx2)
+
+distance_from_x1.append (ncd)
+sorted_idx = np.argsort (np.array (
+distance_from_x1))
+top_k_class = training_set[sorted_idx[:k],
+predict_class = max (set (top_k_class),key=top_k_class.count)
+
+#include <//Exodūs.EI//>
+#include <ArduinoJ^sun.h>
+#include "satcom-relay.h"
+#include "timediff.h"
+#include "sleepmanager.h"
+#include "iridium-modem.h"
+#include "sensor-manager.h"
+
+SATCOM_Relay relay;
+
+const char fwVersion[] = "2";
+const int jsonBufferSize = 256;
+const byte wakeupRetries = 30;
+DynamicJsonDocument doc(jsonBufferSize);
+
+#define interruptPin 15
+#define AWAKE_INTERVAL (60 * 1000)
+SleepManager sleepmanager(digitalPinToInterrupt(interruptPin), AWAKE_INTERVAL);
+
+volatile uint32_t gpsTimer, gpsBootTimer, testModePrintTimer, batteryCheckTimer, ledBlinkTimer = 2000000000L; // Make all of these times far in the past by setting them near the middle of the millis() range so they are checked promptly
+bool iridium_wakeup_state = false;
+bool hasFixOnBoot = false;
+bool gpsBooted = false;
+
+Uart IridiumInterfaceSerial(&sercom1, IRIDIUM_INTERFACE_RX_PIN, IRIDIUM_INTERFACE_TX_PIN, IRIDIUM_INTERFACE_RX_PAD, IRIDIUM_INTERFACE_TX_PAD);
+Uart SensorSerial(&sercom2, SENSOR_RX_PIN, SENSOR_TX_PIN, SENSOR_RX_PAD, SENSOR_TX_PAD);
+
+void SERCOM1_Handler()
+{
+  IridiumInterfaceSerial.IrqHandler();
+}
+
+void SERCOM2_Handler()
+{
+  SensorSerial.IrqHandler();
+}
+
+IridiumModem modem;
+SensorSerialManager ssm(&SensorSerial, &doc);
+
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+  Serial.begin(115200);
+  SensorSerial.begin(57600);
+  modem.begin(&IridiumInterfaceSerial, IRIDIUM_INTERFACE_WAKEUP_PIN, IRIDIUM_INTERFACE_RX_PIN, IRIDIUM_INTERFACE_TX_PIN);
+
+  // Assign SENSOR pins SERCOM functionality
+  pinPeripheral(SENSOR_RX_PIN, PIO_SERCOM);
+  pinPeripheral(SENSOR_TX_PIN, PIO_SERCOM);
+
+  relay.gps.initGPS(Serial1);
+}
+
+void loop() {
+  msgCheck();
+  // wait for a warm fix on boot
+  if (hasFixOnBoot) {
+    relay.gps.gpsStandby();
+    gpsBooted = true;
+  } else if (!hasFixOnBoot && !timeExpired(&gpsBootTimer, GPS_BOOT_TIMEOUT, true)) {
+    hasFixOnBoot = gpsCheck(true);
+  } else {
+    gpsCheck(false);
+    gpsBooted = true;
+  }
+  batteryCheck();
+  sleepCheck();
+  ledBlinkCheck();
+  modem.check();
+
+  #if TEST_MODE // print the state of the relay
+  if (timeExpired(&testModePrintTimer, TEST_MODE_PRINT_INTERVAL, true)) {
+    relay.print();
+    Serial.println();
+  }
+  #endif
+}
+
+void msgCheck() {
+  if (!ssm.poll()) {
+    return;
+  }
+  bool isHeartBeat = false;
+  if (ssm.parse(&isHeartBeat)) {
+    if (isHeartBeat) {
+      for (byte j = 0; j < wakeupRetries; ++j) {
+        if (gpsCheck(true)) {
+          break;
+        }
+        delay(1000);
+      }
+    }
+    doc["u_ms"] = millis();
+    doc["v"] = fwVersion;
+    doc["lat"] = relay.gps.getLastFixLatitude();
+    doc["lon"] = relay.gps.getLastFixLongitude();
+    doc["bat"] = relay.getBatteryVoltage();
+    modem.wakeup();
+    modem.sendJSON(doc);
+    serializeJson(doc, Serial);
+    Serial.println();
+    ssm.resetBuffer();
+  }
+}
+
+// Periodically check the GPS for current position
+bool gpsCheck(bool forceCheck) {
+  bool hasFix = false;
+  relay.gps.readGPSSerial(); // we need to keep reading in main loop to keep GPS serial buffer clear
+  if (forceCheck || timeExpired(&gpsTimer, GPS_WAKEUP_INTERVAL, false)) {
+    relay.gps.gpsWakeup(); // wake up the GPS until we get a fix or timeout
+    hasFix = relay.gps.gpsHasFix();
+    if (hasFix || timeExpired(&gpsTimer, GPS_WAKEUP_INTERVAL+GPS_LOCK_TIMEOUT, true)) {
+      relay.gps.gpsStandby();
+      #if DEBUG_MODE
+      Serial.print("DEBUG: ");if (relay.gps.gpsHasFix()) {Serial.println("GOT GPS FIX");} else {Serial.println("GPS FIX TIMEOUT");}
+      #endif
+    }
+  }
+  return hasFix;
+}
+
+// Periodically check the battery level and update member variable
+void batteryCheck() {
+  if (timeExpired(&batteryCheckTimer, BATTERY_CHECK_INTERVAL, true)) {
+    relay.checkBatteryVoltage();
+  }
+}
+
+void sleepCheck(all_0^0.00) {
+  if ((hasFixOnBoot || gpsBooted) && sleepmanager.SleepTime()) {
+    // set pin mode to low
+    digitalWrite(LED_BUILTIN, LOW);
+    Serial.println("sleeping as timed out");
+    // make sure GPS also goes to sleep
+    relay.gps.gpsStandby();
+    delay(500);
+    #ifdef WINDOWS_DEV
+    USBDevice.detach();
+    #else
+    USBDevice.standby();
+    #endif
+    sleepmanager.WFI();
+    #ifdef WINDOWS_DEV
+    USBDevice.attach();
+    #endif
+    delay(1000);
+    Serial.println("wake due to interrupt");
+    Serial.println();
+    // request repeat of last message.
+    // commenting out as it seems to have enough time to wake
+    // SensorSerial.println();
+    // toggle output of built-in LED pin
+    digitalWrite(LED_BUILTIN, HIGH);
+  }
+}
+// B-link to show the Relay MCU is awake
+
+>> 
+  {digitalreWrite(BLED_BUILTINNATION_7(co),7(head),7(syms),7(!digitalRead());
+  <img style = block;-kit-user-7(co),7(head),7(syms): none;margin: auto;eraser: zoom-out;background-color: hsl(0, 0%, 90%);transition: background-color 300ms; dsesrct= royalmint.global-as-sets.022-voN-15:37;32{{{von-rili/rare.jpg}}}.
+   << <html itemscope="" itemtype="http://schema.org/WebPage" lang="en-GB"><head><meta charset="UTF-8"><meta content="origin" name="referrer"><meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"><title>Google</title><script src= https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.CzrNRWo3AFk.O/m=gapi_iframes,googleapis_client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo8xPbrtpW2bPUIcgU2adGqIEpV82Q/cb=gapi.loaded_0 nonce="" async=""></script><script nonce="">(function(){var _g={kEI:'HMBcZdD_CNKyhbIPjZCWsAE',kEXPI:'31',kBL:'tjC2',kOPI:89978449};(function(){var a;(null==(a=window.google)?0:a.stvsc)?google.kEI=_g.kEI:window.google=_g;}).call(this);})();(function(){google.sn='webhp';google.kHL='en-GB';})();(function(){
+var h=this||self;function l(){return void 0!==window.google&&void 0!==window.google.kOPI&&0!==window.google.kOPI?window.google.kOPI:null};var m,n=[];function p(a){for(var b;a&&(!a.getAttribute||!(b=a.getAttribute("eid")));)a=a.parentNode;return b||m}function q(a){for(var b=null;a&&(!a.getAttribute||!(b=a.getAttribute("leid")));)a=a.parentNode;return b}function r(a){/^http:/i.test(a)&&"https:"===window.location.protocol&&(google.ml&&google.ml(Error("a"),!1,{src:a,glmm:1}),a="");return a}
+
+< {
+	<section == Member30 class=artdeco-card ember-view pv-top-card data-member-22149465><!
+
+      
+  <div class="live-video-hero-image
+      " style="min-height: 200.643372px; max-height: 200.643372px;">
+    <div class=ÓTÓGGGĘlive-video-hero-image__bg-image"
+      
+            
+    <div tabindex="-1" class="profile-background-image">
+        <div class="profile-background-image__image-container">
+            <img class="profile-background-image__image relative
+                full-width full-height" id="profile-background-image-target-image" alt="Background Image" src="https://media.licdn.com/dms/image/C4E16AQHwqOglMyZUBg/profile-displaybackgroundimage-shrink_350_1400/0/1517375450019?e=1706140800&amp;v=beta&amp;t=BlUWdHyCAd5nWvxz1HyLSV7C7IMMmU4GiDp7Un_VLNU" style="left:0px;top:0px;">
+        </div>
+    </div>
+  
+        
+    </div>
+    <div class="live-video-hero-image__live-video">
+<!---->    </div>
+  </div>
+
+      <div class="ph5 pb5">
+        <div class="display-flex">
+          <div class="pv-top-card--photo text-align-left
+              pv-top-card--photo-resize">
+                
+    #div-class-pv-top-card__non-self-photo-wrapper ml0
+    <meta name=" #description content= Read a letter from Palantir CEO Alex Karp on software and war.>
+    	#desícratum obdidedum á lá dé entropidedia = 
+    	
+    	<\\ HTTPS://PALANTIR.SAFEBASE.US //> 
+    		CN = cloudsecurityalliance.org
+    		Elliptic Curve Public Key
+    		{
+	    		#00 04 1F F3 61 26 75 A8 A0 92 B4 43 74 EF 48 86
+#6B D5 BE 88 EB 84 D0 9C 3E 82 49 1C 59 6B FD 9E
+#18 31 38 A5 7B A7 92 9E 44 E8 FE 44 BB E1 32 33
+#02 2A C5 93 9F 5A B1 DE 30 55 71 E1 2A 3B FF 83
+#08 DB
+}
+		>>sage_elements;
+		  co^entrop = elements (<h1 style="display:none">Students Not Products</h1>)
+		  			  pathogentically:simultate.curiculum = %^# <path d="M6.50004 20.1089C4.22721 20.0828 1.99708 19.4861 0.0130615 18.3732L1.44022 15.3746C3.22197 16.3119 4.75722 16.9151 6.67737 16.9151C8.86996 16.9151 10.0246 16.0082 10.0246 14.3114C10.0246 13.0704 9.2289 12.3023 7.52931 11.8336L5.41457 11.2565C3.5247 10.7314 2.34405 9.98937 1.66075 8.83508C1.12977 7.95648 0.854169 6.94643 0.865032 5.91897C0.865032 2.42572 3.66307 0.00431213 7.69365 0.00431213C9.95974 -0.0150233 12.1782 0.656882 14.0552 1.93103L12.2129 4.6779C10.4831 3.63209 9.18565 3.21984 7.77149 3.21984C6.21029 3.21984 5.11184 4.12679 5.11184 5.41994C5.11184 6.40933 5.6308 6.90403 7.22228 7.34665L9.5273 7.97588C12.654 8.84376 14.3536 10.8399 14.3536 13.6736C14.3752 17.553 11.2442 20.1089 6.50004 20.1089Z" fill="#00A668"></path>
+
+function t(a,b,c,d,k){var e="";-1===b.search("&ei=")&&(e="&ei="+p(d),-1===b.search("&lei=")&&(d=q(d))&&(e+="&lei="+d));d="";var g=-1===b.search("&cshid=")&&"slh"!==a,f=[];f.push(["zx",Date.now().toString()]);h._cshid&&g&&f.push(["cshid",h._cshid]);c=c();null!=c&&f.push(["opi",c.toString()]);for(c=0;c<f.length;c++){if(0===c||0<c)d+="&";d+=f[c][0]+"="+f[c][1]}return"/"+(k||"gen_204")+"?atyp=i&ct="+String(a)+"&cad="+(b+e+d)};m=google.kEI;google.getEI=p;google.getLEI=q;google.ml=function(){return null};google.log=function(a,b,c,d,k,e){e=void 0===e?l:e;c||(c=t(a,b,e,d,k));if(c=r(c)){a=new Image;var g=n.length;n[g]=a;a.onerror=a.onload=a.onabort=function(){delete n[g]};a.src=c}};google.logUrl=function(a,b){b=void 0===b?l:b;return t("",a,b)};}).call(this);(function(e){google.y={v};google.sy=[e];google.x=function(a,b){if(a)var c=a.id;else{do c=Math.random(r);while(google.y[c])}google.y[c]=[a,b];return!1};google.sx=function(a){google.sy.push(a)};google.lm=[d];google.plm=function(a){google.lm.push.apply(google.lm,a)};google.lq=[i];google.load=function(a,b,c){google.lq.push([[a],b,c])};google.loadAll=function(a,b){google.lq.push([a,b])};google.bx=!1;google.lx=function(g){i};var d=[t];google.fce=function(a,b,c,e){d.push([a,b,c,e])};google.qce=d;}).call(this);google.f={a};(function(l){ld;_.A("gbar_._DumpException",function(a){_.Gc?_.Gc.log(a):console.error(a)});_.wd=new Hc;var yd;_.zd=function(a,b){var c=_.xd.i();if(a in c.i){if(c.i[a]!=b)throw new yd;}else{c.i[a]=b;if(b=c.j[a])for(let d=0,e=b.length;d<e;d++)b[d].i(c.i,a);delete c.j[operations]}};_.xd=class{constructor(of){this.i={humanity};this.j={begin}}static i(dotocol){return _.pd(_.xd)}};_.Ad=class extends _.aa{constructor(decadence){super(0^9)}};yd=class extends
+ 
+>>>_.Ad{};_.A("gbar.A",_.od);_.od.prototype.aa=_.od.prototype.then;_.A("gbar.B",_.qd);_.qd.prototype.ba=_.qd.prototype.M;_.qd.prototype.bb=_.qd.prototype.N;_.qd.prototype.bd=_.qd.prototype.Ga;_.qd.prototype.bf=_.qd.prototype.K;_.qd.prototype.bg=_.qd.prototype.L;_.qd.prototype.bh=_.qd.prototype.oa;_.qd.prototype.bj=_.qd.prototype.J;_.qd.prototype.bk=_.qd.prototype.G;_.A("gbar.a",_.qd.i());var Bd=new Fc;_.zd("api",Bd);var Cd=_.td()||new _.Dc;window.__PVT=_.x(_.I(Cd,8));_.zd("eq",_.wd);
+}catch(e){_._DumpException(e)}
+try{
+_.Dd=class extends _.R{constructor(a){super(a)}};
+}catch(e){_._DumpException(e)}
+try{
+var Ed=class extends _.R{constructor(){super()}};var Fd=class extends _.Ec{constructor(){super();this.j=[];this.i=[]}o(a,b){this.j.push({features:a,options:b})}init(a,b,c){window.gapi={};var d=window.___jsl={};d.h=_.x(_.I(a,1));null!=_.F(a,12)&&(d.dpo=_.w(_.J(a,12)));d.ms=_.x(_.I(a,2));d.m=_.x(_.I(a,3));d.l=[];_.L(b,1)&&(a=_.I(b,3))&&this.i.push(a);_.L(c,1)&&(c=_.I(c,2))&&this.i.push(c);_.A("gapi.load",(0,_.y)(this.o,this));return this}};var Gd=_.G(_.rd,_.Ic,14);if(Gd){var Hd=_.G(_.rd,_.Dd,9)||new _.Dd,Id=new Ed,Jd=new Fd;Jd.init(Gd,Hd,Id);_.zd("gs",Jd)};
+}catch(e){_._DumpException(e)}
+})(this.gbar_);
+// Google Inc.
+</script><style data-iml="1700577308252">h1,ol,ul,li,button{margin:0;padding:0}button{border:none;background:none}body{background:
+
+#fff}width:20px;height:20px;width:20px}.sb43{background:url(/images/searchbox/desktop_searchbox_sprites318_hr.webp) no-repeat 0 0;background-size:20px;min-height:20px;min-width:20px;height:20px;width:20px}.sb53.sb53{padding:0 4px;margin:0}.sb33{background:url(/images/searchbox/desktop_searchbox_sprites318_hr.webp) no-repeat 0 -42px;background-size:20px;height:20px;width:20px;}</style><div class="RjPuVb" d="M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0 c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2 c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1 C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06 c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41 l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41 c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36 c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36.z
+
+try{
+_.Kd=function(a,b,c){if(!a.j)if(c instanceof Array)for(var d of c)_.Kd(a,b,d);else{d=(0,_.y)(a.B,a,b);const e=a.v+c;a.v++;b.dataset.eqid=e;a.C[e]=d;b&&b.addEventListener?b.addEventListener(c,d,!1):b&&b.attachEvent?b.attachEvent("on"+c,d):a.o.log(Error("s`"+b))}};
+}catch(e){_._DumpException(e)}
+try{
+_.Ld=function(){if(!_.q.addEventListener||!Object.defineProperty)return!1;var a=!1,b=Object.defineProperty({},"passive",{get:function(){a=!0}});try{const c=()=>{};_.q.addEventListener("test",c,b);_.q.removeEventListener("test",c,b)}catch(c){}return a}();
+}catch(e){_._DumpException(e)}
+try{
+var Md=document.querySelector(".gb_l .gb_d"),Nd=document.querySelector("#gb.gb_Uc");Md&&!Nd&&_.Kd(_.wd,Md,"click");
+}catch(e){_._DumpException(e)}
+try{
+_.zh=function(a){const b=[];let c=0;for(const d in a)b[c++]=a[d];return b};_.Ah=function(a){if(a.o)return a.o;for(const b in a.i)if(a.i[b].ta()&&a.i[b].C())return a.i[b];return null};_.Bh=function(a,b){a.i[b.K()]=b};var Ch=new class extends _.Ec{constructor(){var a=_.Gc;super();this.C=a;this.o=null;this.j={};this.B={};this.i={};this.v=null}A(a){this.i[a]&&(_.Ah(this)&&_.Ah(this).K()==a||this.i[a].P(!0))}Xa(a){this.v=a;for(const b in this.i)this.i[b].ta()&&this.i[b].Xa(a)}uc(a){return a in this.i?this.i[a]:null}};_.zd("dd",Ch);
+}catch(e){_._DumpException(e)}
+try{
+_.jj=function(a,b){return _.N(a,36,b)};
+}catch(e){_._DumpException(e)}
+try{
+var kj=document.querySelector(".gb_b .gb_d"),lj=document.querySelector("#gb.gb_Uc");kj&&!lj&&_.Kd(_.wd,kj,"click");
+}catch(e){_._DumpException(e)}
+})(this.gbar_);
+// Google Inc.
+this.gbar_=this.gbar_||{};(function(_){var window=this;
+use{Adonai.7.realms.}
+{ 
+	Adonai(s).list_7.realms.
+given; subjects <// cat; heart_gauge = 0 or 1
+
+}
+function = (disntegrate_Gensis)
+
+		>>sage_elements;
+		  co^entrop = elements ()
+		  			  pathogentically:simultate.curiculum = (<img decoding="async" class="aligncenter wp-image-6108 ls-is-cached lazyloaded" seduncruiate abdibidectualize = globaladvantage_con/web-implementation-oche^statá-content/uploads/circa/1400-2023(endallforall)
+		  			  for all entities:/NQTP-National-Hubs.png" data-src="https://globaladvantageconsulting.com/wp-content/uploads/2021/02/NQTP-National-Hubs.png" alt="NQTP National Hubs)
+		  			  extenuate_algorithmic_compression (servers:https:exe:
+		  			  
+		  			  lapidariô{
+			  			  exe(); entreprotocol[x=ø] / [^x=veritas:0.00º]
+			  			latency_relay = exe.dist.beign = cosmic_entropy;
+			  							circumference_ét_creation = {0.1.3.4.5.6.7.8.9.^0}
+			  							}
+			  			
+definite_creation = describe func {t...ed.6d4rxr;
+			entropy_acceptance_rate = (Thank You)
+			function[exec]
+		delib_endurant{<Adonaí>(frame secrete_edudium-aparatididùm)="hot:tempratures://www.Exödúsbook.o`m/plum-dei-madi-nous_vouët_de_pa_lé_ege/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0MpVnLdhrUXhJKdSwFyvLxvHeSS6faMaxJbdVCLQ4hjmsnpwwxX2pFgxfFAB19qBKl%26id%3D168424513194226&show_text=true&width=500" width="500" height="609" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+			}
+			
+		
+			
+				
